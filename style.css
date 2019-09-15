@@ -1,0 +1,40 @@
+html,body,p,ul,ol,h1,h2,h3,h4,h5,h6{
+    margin:0;
+    padding:0;
+}
+ol,ul {
+    list-style: none;
+}
+.page-header{
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+body{
+    background-color:whitesmoke;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1000px;
+}
+.d-flex{
+    display: flex;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.col-1{
+    width: 33.3%;
+}
+.content-box{
+    padding:40px 20px;
+    text-align: center;
+}
+.content-box small {
+    display: block;
+    font-size: 20px;
+    background-color:green;
+    color: white;
+}
+
